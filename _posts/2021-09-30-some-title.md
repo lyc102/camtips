@@ -1,6 +1,7 @@
 ---
-title: "Blog article"
+title: "Testing different authors"
 date: 2021-09-30
+author: "Shuhao Cao"
 categories:
   - Blog
 tags:
@@ -8,8 +9,11 @@ tags:
   - iFEM
 ---
 
+## author file
 
-## Testing
+`_data/authors.yml`
+
+## texts
 
 As any dedicated reader can clearly see, the Ideal of practical reason is a representation
 of, as far as I know, the things in themselves; as I have shown elsewhere, the phenomena
