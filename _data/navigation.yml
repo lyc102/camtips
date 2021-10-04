@@ -5,3 +5,25 @@ main:
     url: /about/
   - title: "Tags"
     url: /tags/
+
+blog:
+  - title: "Research"
+    url: /research/
+    children:
+      # - title: "recent"
+        # url: /recent/
+      # - title: "highlight"
+        # url: /highlight/
+
+  - title: Teaching
+    url: /teaching/
+    children:
+      # - title: "Fall 2021"
+        # url: /teaching/math226-fa2021/
+      # - title: "Winter 2022"
+        # url: /teaching/math226-winter2022/
+      # - title: "Spring 2022"
+        # url: /teaching/math226-spring2022/
+
+  - title: CAM传习录
+    url: /camtips/
