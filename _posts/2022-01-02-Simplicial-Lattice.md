@@ -68,34 +68,24 @@ is non-singular. Given any point $\boldsymbol x=(x_1,\cdots, x_n)\in \mathbb R^n
 
 $$
 A \left ( \begin{array}{c}
-
-\lambda _1\\
-
+\lambda_1\\
 \vdots\\
-
-\lambda _n\\
-
-\lambda _{n+1}
-
+\lambda_n\\
+\lambda_{n+1}
 \end{array}\right ) 
-
 =
-
 \left ( \begin{array}{c}
-
 x_1\\
-
 \vdots\\
-
-x _{n}\\
-
+x_{n}\\
 1
-
-\end{array}\right ),\label{bary}
+\end{array}\right ),
+\tag{$\ast$}
+\label{eq:Alambda}
 $$
 
 
-we obtain unique $n+1$ real numbers $\lambda _{i}(\boldsymbol x), 1\leq i\leq n+1$, such that for any $\boldsymbol x\in \mathbb R^n$
+we obtain unique $n+1$ real numbers $\lambda_{i}(\boldsymbol x), 1\leq i\leq n+1$, such that for any $\boldsymbol x\in \mathbb R^n$
 $$
 \boldsymbol x=\sum _{i=1}^{n+1}\lambda _i(\boldsymbol x)\boldsymbol x_i, \; \text{ with } \; \sum _{i=1}^{n+1}\lambda _i(\boldsymbol x)=1.
 $$
@@ -109,7 +99,7 @@ is defined as a *geometric $d$​​-simplex* generated (or spanned) by the vert
 
 The numbers  $\lambda_1(\boldsymbol x),\ldots,\lambda_{d+1}(\boldsymbol x)$​​​ are called **barycentric coordinates** of $\boldsymbol x$​​​ with respect to the $d+1$​​​ vertices $\boldsymbol x_1, \ldots, \boldsymbol x_{d+1}$​​​ .
 
-There is a simple geometric meaning of the barycentric coordinates. Given a $\boldsymbol x\in \tau$​​, let $\tau _i(\boldsymbol x)$​​ be the simplex with vertices $\boldsymbol x_i$​​ replaced by $\boldsymbol x$. Then, by the Cramer's rule for solving \eqref{bary}, 
+There is a simple geometric meaning of the barycentric coordinates. Given a $\boldsymbol x\in \tau$, let $\tau_i(\boldsymbol x)$ be the simplex with vertices $\boldsymbol x_i$ replaced by $\boldsymbol x$. Then, by the Cramer's rule for solving \eqref{eq:Alambda}, 
 $$
 \lambda _i(\boldsymbol x) = \frac{|\tau _i(\boldsymbol x)|}{|\tau|},
 $$
@@ -117,9 +107,7 @@ where $|\cdot|$ is the Lebesgue measure in $\mathbb R^d$, namely area in two dim
 
 
 
-<img src="https://lyc102.github.io/camtips/assets/images/barycentricCoor2D.jpg" alt="barycentricCoor3D" style="zoom:69%;" />
-
-<img src="https://lyc102.github.io/camtips/assets/images/barycentricCoor3D.jpg" alt="barycentricCoor3D" style="zoom:79%;" />  
+<img src="https://lyc102.github.io/camtips/assets/images/barycentricCoor2D.jpg" alt="barycentricCoor3D" style="zoom:69%;" /><img src="https://lyc102.github.io/camtips/assets/images/barycentricCoor3D.jpg" alt="barycentricCoor3D" style="zoom:79%;" />  
 
 
 
