@@ -14,9 +14,13 @@ We use Lagrange elements as an example to introduce the simplicial lattice and c
 
 **Reference**: [Geometric decompositions of the simplicial lattice and smooth finite elements in arbitrary dimension](https://arxiv.org/abs/2111.10712) Long Chen and Xuehai Huang. *arXiv.* 2021.
 
+<<<<<<< HEAD
 ![geoLa 29](figures/geoLa 29.png)
 
 <<<<<<< HEAD
+=======
+
+>>>>>>> parent of 0a69309 (Update 2022-01-02-Simplicial-Lattice.md)
 ![geoLa 29](figures/geoLa 29.png)
 
 ![geoLa 31](figures/geoLa 31.png)
