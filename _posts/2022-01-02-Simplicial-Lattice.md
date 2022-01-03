@@ -18,7 +18,7 @@ We use Lagrange elements as an example to introduce the simplicial lattice and c
 
 We test figures.
 
-![geoLa 29](figures/geoLa 29.png)
+![geoLa 29](./figures/geoLa 29.png)
 
 ![geoLa 30](figures/geoLa 30.png)
 
