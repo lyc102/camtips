@@ -16,7 +16,7 @@ We use Lagrange elements as an example to introduce the simplicial lattice and c
 
 
 
-![geoLa 29](https://lyc102.github.io/camtips/assets/images/geoLa 29.png)
+<img src= "https://lyc102.github.io/camtips/assets/images/geoLa 29.png">
 
 ![geoLa 30](https://lyc102.github.io/camtips/assets/images/geoLa 30.png)
 
