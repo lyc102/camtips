@@ -107,7 +107,7 @@ where $|\cdot|$ is the Lebesgue measure in $\mathbb R^d$, namely area in two dim
 
 
 
-<img src="https://lyc102.github.io/camtips/assets/images/barycentricCoor2D.jpg" alt="barycentricCoor3D" style="zoom:69%;" /><img src="https://lyc102.github.io/camtips/assets/images/barycentricCoor3D.jpg" alt="barycentricCoor3D" style="zoom:79%;" />  
+<img src="https://lyc102.github.io/camtips/assets/images/barycentricCoor2D.jpg" alt="barycentricCoor3D" style="zoom:69%;" /><img src="https://lyc102.github.io/camtips/assets/images/barycentricCoor3D.jpg" alt="barycentricCoor3D" style="zoom:79%;" />      
 
 
 
@@ -149,5 +149,9 @@ There is a nice property of the bubble function. The bubble function $b_f$​ on
 
 ![geoLa 42](https://lyc102.github.io/camtips/assets/images/geoLa 42.png)
 
-We can construct Lagrang finite elements based on a decomposition of the simplicial lattice. The DoFs are integrals on sub-simplex. Using the property of the bubble functions, the resulting DoF-Fun matrix is block lower triangular and the diagonal block is a Gram matrix $(\int_f b_f p_ip_j \, ds)$​, which is symmetric and positive definite (SPD). If using function values, the matrix $( p_i(x_j))$​ is still invertiable for the lattice on sub-simplex which can be proved by recursion. 
+We can construct Lagrang finite elements based on a decomposition of the simplicial lattice. The DoFs are integrals on sub-simplex. Using the property of the bubble functions, the resulting DoF-Fun matrix is block lower triangular and the diagonal block is a Gram matrix $(\int_f b_f p_ip_j \, ds)$, which is symmetric and positive definite (SPD). If using function values, the matrix $( p_i(x_j))$ is still invertiable for the sub-simplex  lattice which can be proved by recursion. 
+
+----
+
+To leave comments (in math), please visit https://sites.uci.edu/camtips/2022/01/02/simpliciallattice/
 
