@@ -16,16 +16,14 @@ We use Lagrange elements as an example to introduce the simplicial lattice and c
 
 
 
-We test figures.
+![geoLa 29](/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/geoLa 29.png)
 
-![geoLa 29](./figures/geoLa 29.png)
+![geoLa 30](/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/geoLa 30.png)
 
-![geoLa 30](figures/geoLa 30.png)
+The DoFs are not just functional defined on the shape function $V$​. Indeed it is implicitly assumed a DoF $N(u)$​ can be extended to function $u$​ in a larger space $U$​ so that $V\subset U$​​. 
 
-The DoFs are not just functional defined on the shape function $V$. Indeed it is implicitly assumed a DoF $N(u)$ can be extended to function $u$ in a larger space $U$ so that $V\subset U$. 
+![geoLa 31](/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/geoLa 31.png)
 
-![geoLa 31](figures/geoLa 31.png)
-
-![geoLa 32](figures/geoLa 32.png)
+![geoLa 32](/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/geoLa 32.png)
 
 Let's look at two examples. The shape function is now the quadratic polynomial whose dimension is $6$​​​. Function values at $3$​​ vertices and middle points of $3$​​ edges are well defined DoFs. But $6$​ points sitting on the same circle are not as a qudratic polynomial can vanish at those $6$​ points only. This is the example found by Fortin when he wants to generalize the linear CR non-conforming element to quadratic. 
