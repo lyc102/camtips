@@ -117,7 +117,7 @@ where $|\cdot|$ is the Lebesgue measure in $\mathbb R^d$, namely area in two dim
 
 
 
-<img src="https://lyc102.github.io/camtips/assets/images/barycentricCoor2D.jpg" alt="barycentricCoor3D" style="zoom:67%;" />
+<img src="https://lyc102.github.io/camtips/assets/images/barycentricCoor2D.jpg" alt="barycentricCoor3D"/>
 
 <img src="https://lyc102.github.io/camtips/assets/images/barycentricCoor3D.jpg" alt="barycentricCoor3D" style="zoom:69%;" />  
 
@@ -149,7 +149,7 @@ The simplication is: we use one symbol $f$ for both the algebraic set and the ge
 
 ![geoLa 41](https://lyc102.github.io/camtips/assets/images/geoLa 41.png)
 
-This is a nice property of the bubble function. $b_f$ will vanish on all lower dimensional sub-simplex $e$ no matter if $e\subset f$ or not. It also vanish on other $f'$ with the same dimension. 
+There is a nice property of the bubble function. The bubble function $b_f$​ on a face will vanish on all lower dimensional sub-simplex $e$​ no matter if $e\subset f$​ or not. It also vanish on other faces $f'$​ with the same dimension. 
 
 
 
