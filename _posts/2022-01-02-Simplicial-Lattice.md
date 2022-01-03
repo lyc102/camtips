@@ -105,11 +105,11 @@ The *convex hull* of the $d+1$ points $\boldsymbol x_1, \cdots, \boldsymbol x_{d
 $$
 \tau :=\{\boldsymbol x=\sum _{i=1}^{d+1}\lambda _i\boldsymbol x_i \, | \, 0\leq \lambda_i\leq 1, i=1:d+1, \sum _{i=1}^{d+1}\lambda _i=1 \}
 $$
-is defined as a *geometric $d$-simplex* generated (or spanned) by the vertices $\boldsymbol x_1, \cdots, \boldsymbol x_{d+1}$. For example, a triangle is a $2$-simplex and a tetrahedron is a $3$-simplex. 
-
-The numbers $\lambda _1(\boldsymbol x),\ldots,\lambda _{d+1}(\boldsymbol x)$​ are called **barycentric coordinates** of $\boldsymbol x$​ with respect to the $d+1$​ points $\boldsymbol x_1, \cdots, \boldsymbol x_{d+1}$​.  There is a simple geometric meaning of the barycentric coordinates. Given a $\boldsymbol x\in \tau$​, let $\tau _i(\boldsymbol x)$​ be the simplex with vertices $\boldsymbol x_i$​ replaced by $\boldsymbol x$​​. Then, by the Cramer's rule for solving (\eqref{bary}), 
+is defined as a *geometric $d$-simplex* generated (or spanned) by the vertices $\boldsymbol x_1, \cdots, \boldsymbol x_{d+1}$. For example, a triangle is a $2$-simplex and a tetrahedron is a $3$-simplex. The numbers $\lambda _1(\boldsymbol x),\ldots,\lambda _{d+1}(\boldsymbol x)$ are called **barycentric coordinates** of $\boldsymbol x$ with respect to the $d+1$ points $\boldsymbol x_1, \cdots, \boldsymbol x_{d+1}$ .
 
 
+
+There is a simple geometric meaning of the barycentric coordinates. Given a $\boldsymbol x\in \tau$​​, let $\tau _i(\boldsymbol x)$​​ be the simplex with vertices $\boldsymbol x_i$​​ replaced by $\boldsymbol x$. Then, by the Cramer's rule for solving (\eqref{bary}), 
 $$
 \lambda _i(\boldsymbol x) = \frac{|\tau _i(\boldsymbol x)|}{|\tau|},
 $$
