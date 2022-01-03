@@ -40,7 +40,9 @@ DoFs for Lagrange elements on triangules and tetrahedron are well knowns. One ca
 
 ## Simplex
 
-Let $\boldsymbol x_{i}=(x_{1,i}, \cdots, x_{n,i})^{\intercal}, i=1,\cdots, n+1$ be $n+1$ points in $\mathbb R^n$. We say $\boldsymbol x_1, \cdots, \boldsymbol x_{n+1}$ do not all lie in one hyper-plane if the $n$-vectors $\boldsymbol x_1\boldsymbol x_{2},\cdots, \boldsymbol x_1\boldsymbol x_{n+1}$ are independent. This is equivalent to the matrix:
+Let $\boldsymbol x_{i}=(x_{1,i}, \cdots, x_{n,i})^{\intercal}, i=1,\cdots, n+1$ be $n+1$ points in $\mathbb R^n$. We say $\boldsymbol x_1, \cdots, \boldsymbol x_{n+1}$ do not all lie in one hyper-plane if the $n$-vectors $\boldsymbol x_1\boldsymbol x_{2},\cdots, \boldsymbol x_1\boldsymbol x_{n+1}$​ are independent. This is equivalent to the matrix:
+
+
 $$
 A = \left (
 
@@ -61,8 +63,9 @@ x_{n,1} & x_{n,2} & \ldots & x_{n,n+1}\\
 \right)
 $$
 
-
 is non-singular. Given any point $\boldsymbol x=(x_1,\cdots, x_n)\in \mathbb R^n$, by solving the following linear system
+
+
 $$
 A \left ( \begin{array}{c}
 
@@ -104,7 +107,9 @@ $$
 $$
 is defined as a *geometric $d$-simplex* generated (or spanned) by the vertices $\boldsymbol x_1, \cdots, \boldsymbol x_{d+1}$. For example, a triangle is a $2$-simplex and a tetrahedron is a $3$-simplex. 
 
-The numbers $\lambda _1(\boldsymbol x),\cdots, \lambda _{d+1}(\boldsymbol x)$ are called **barycentric coordinates** of $\boldsymbol x$ with respect to the $d+1$ points $\boldsymbol x_1, \cdots, \boldsymbol x_{d+1}$. There is a simple geometric meaning of the barycentric coordinates. Given a $\boldsymbol x\in \tau$, let $\tau _i(\boldsymbol x)$ be the simplex with vertices $\boldsymbol x_i$ replaced by $\boldsymbol x$. Then, by the Cramer's rule for solving (\ref{bary}), 
+The numbers $\lambda _1(\boldsymbol x),\ldots,\lambda _{d+1}(\boldsymbol x)$​ are called **barycentric coordinates** of $\boldsymbol x$​ with respect to the $d+1$​ points $\boldsymbol x_1, \cdots, \boldsymbol x_{d+1}$​.  There is a simple geometric meaning of the barycentric coordinates. Given a $\boldsymbol x\in \tau$​, let $\tau _i(\boldsymbol x)$​ be the simplex with vertices $\boldsymbol x_i$​ replaced by $\boldsymbol x$​​. Then, by the Cramer's rule for solving (\eqref{bary}), 
+
+
 $$
 \lambda _i(\boldsymbol x) = \frac{|\tau _i(\boldsymbol x)|}{|\tau|},
 $$
@@ -112,7 +117,9 @@ where $|\cdot|$ is the Lebesgue measure in $\mathbb R^d$, namely area in two dim
 
 
 
-<img src="/Users/longchen1/Dropbox/Sites/public_html/CAMtips/figures/barycentricCoor2D.jpg" alt="barycentricCoor3D" style="zoom:67%;" /><img src="/Users/longchen1/Dropbox/Sites/public_html/CAMtips/figures/barycentricCoor3D.jpg" alt="barycentricCoor3D" style="zoom:69%;" />  
+<img src="https://lyc102.github.io/camtips/assets/images/barycentricCoor2D.jpg" alt="barycentricCoor3D" style="zoom:67%;" />
+
+<img src="https://lyc102.github.io/camtips/assets/images/barycentricCoor3D.jpg" alt="barycentricCoor3D" style="zoom:69%;" />  
 
 
 
