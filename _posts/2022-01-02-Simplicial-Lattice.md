@@ -15,32 +15,30 @@ We use Lagrange elements as an example to introduce the simplicial lattice and c
 **Reference**: [Geometric decompositions of the simplicial lattice and smooth finite elements in arbitrary dimension](https://arxiv.org/abs/2111.10712) Long Chen and Xuehai Huang. *arXiv.* 2021.
 
 
-![png](figures/geoLa 29.png)
+![geoLa 29](figures/geoLa 29.png)
 
-![geoLa 29](/Users/longchen1/Dropbox/Math/MathNotes/camtips/_posts/figures/geoLa 29.png)
+![geoLa 30](/camtips/_posts/figures/geoLa 30.png)
 
-![geoLa 30](/Users/longchen1/Dropbox/Math/MathNotes/camtips/_posts/figures/geoLa 30.png)
+![geoLa 31](/camtips/_posts/figures/geoLa 31.png)
 
-![geoLa 31](/Users/longchen1/Dropbox/Math/MathNotes/camtips/_posts/figures/geoLa 31.png)
+![geoLa 32](/camtips/_posts/figures/geoLa 32.png)
 
-![geoLa 32](/Users/longchen1/Dropbox/Math/MathNotes/camtips/_posts/figures/geoLa 32.png)
+![geoLa 33](/camtips/_posts/figures/geoLa 33.png)
 
-![geoLa 33](/Users/longchen1/Dropbox/Math/MathNotes/camtips/_posts/figures/geoLa 33.png)
+![geoLa 34](/camtips/_posts/figures/geoLa 34.png)
 
-![geoLa 34](/Users/longchen1/Dropbox/Math/MathNotes/camtips/_posts/figures/geoLa 34.png)
+![geoLa 35](/camtips/_posts/figures/geoLa 35.png)
 
-![geoLa 35](/Users/longchen1/Dropbox/Math/MathNotes/camtips/_posts/figures/geoLa 35.png)
+![geoLa 36](/camtips/_posts/figures/geoLa 36.png)
 
-![geoLa 36](/Users/longchen1/Dropbox/Math/MathNotes/camtips/_posts/figures/geoLa 36.png)
+![geoLa 37](/camtips/_posts/figures/geoLa 37.png)
 
-![geoLa 37](/Users/longchen1/Dropbox/Math/MathNotes/camtips/_posts/figures/geoLa 37.png)
+![geoLa 38](/camtips/_posts/figures/geoLa 38.png)
 
-![geoLa 38](/Users/longchen1/Dropbox/Math/MathNotes/camtips/_posts/figures/geoLa 38.png)
+![geoLa 39](/camtips/_posts/figures/geoLa 39.png)
 
-![geoLa 39](/Users/longchen1/Dropbox/Math/MathNotes/camtips/_posts/figures/geoLa 39.png)
+![geoLa 40](/camtips/_posts/figures/geoLa 40.png)
 
-![geoLa 40](/Users/longchen1/Dropbox/Math/MathNotes/camtips/_posts/figures/geoLa 40.png)
+![geoLa 41](/camtips/_posts/figures/geoLa 41.png)
 
-![geoLa 41](/Users/longchen1/Dropbox/Math/MathNotes/camtips/_posts/figures/geoLa 41.png)
-
-![geoLa 42](/Users/longchen1/Dropbox/Math/MathNotes/camtips/_posts/figures/geoLa 42.png)
+![geoLa 42](/camtips/_posts/figures/geoLa 42.png)
