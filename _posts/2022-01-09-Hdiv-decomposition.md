@@ -46,7 +46,7 @@ $$
 $$
 is straight forward. For face $F$​​ not containing $f$​​, $b_f|_F = 0.$​  
 
-For face $F$​​​​ containing $f$​​​​, ${\rm tr}_F \boldsymbol u = \boldsymbol n_F \cdot \boldsymbol u = 0$​​ as $\boldsymbol n_F\cdot \boldsymbol t_i^f = 0$​​​. Therefore $\oplus _{\ell = 1}^n\oplus _{f\in \Delta_{\ell}(T)} \mathbb B_r^f( T)\subseteq \mathbb B_r({\rm div} , T)$​​​
+For face $F$​​​​​ containing $f$​​​ ​​, ${\rm tr} \boldsymbol u = \boldsymbol n_F \cdot \boldsymbol u = 0$​​​  as  $\boldsymbol n_F\cdot \boldsymbol t_i^f = 0$​​​​. Therefore $\oplus _{\ell = 1}^n\oplus _{f\in \Delta_{\ell}(T)} \mathbb B_r^f( T)\subseteq \mathbb B_r({\rm div} , T)$​​​​.
 
  Then apply the trace operator to the decomposition and use ${\rm tr} \mathbb{B}^f_r(T ) = 0$​​​ to obtain 
 $$
@@ -202,7 +202,11 @@ The inclusion $ {\rm div}( \mathbb B_r({\rm div}, T)) \subseteq \mathbb P_{r-1}/
 $$
 ({\rm div} \boldsymbol v, p)_T = -( \boldsymbol v, \nabla  p)_T = 0 \quad\forall~p\in \ker(\nabla ) = \mathbb R.
 $$
-If $ {\rm div}( \mathbb B_r({\rm div}, T)) \neq \mathbb P_{r-1}/\mathbb R$, there exists a $p\in \mathbb P_{r-1}/\mathbb R$ and $p\perp {\rm div}( \mathbb B_r({\rm div}, T))$, which is equivalent to $\nabla   p \perp \mathbb B_r({\rm div}, T)$. Expand the vector $\nabla   p$ in the basis $\{\boldsymbol n_i, i=1,\ldots, n\}$ as $\nabla   p = \sum\limits_{i=1}^n q_i {\boldsymbol n}_{i}$ with $q_i\in\mathbb P_{r-2}(T)$. Then set $\boldsymbol v_p = \sum\limits_{i=1}^n|\nabla\lambda_i| q_i \lambda_{0}\lambda_i \boldsymbol t_{i,0}\in \mathbb B_r({\rm div}, T)$, where $\boldsymbol t_{i,0}:=\texttt{v}_0-\texttt{v}_i$.
+If $ {\rm div}( \mathbb B_r({\rm div}, T)) \neq \mathbb P_{r-1}/\mathbb R$​, there exists a $p\in \mathbb P_{r-1}/\mathbb R$​ and $p\perp {\rm div}( \mathbb B_r({\rm div}, T))$​, which is equivalent to $\nabla   p \perp \mathbb B_r({\rm div}, T)$​. Expand the vector $\nabla   p$​ in the basis $\{\boldsymbol n_i, i=1,\ldots, n\}$​ as
+$$
+\nabla   p = \sum\limits_{i=1}^n q_i {\boldsymbol n}_{i}
+$$
+with $q_i\in\mathbb P_{r-2}(T)$​​. Then set $\boldsymbol v_p = \sum\limits_{i=1}^n|\nabla\lambda_i| q_i \lambda_{0}\lambda_i \boldsymbol t_{i,0}\in \mathbb B_r({\rm div}, T)$​​, where $\boldsymbol t_{i,0}:=\texttt{v}_0-\texttt{v}_i$​​.
 
 We have
 $$
