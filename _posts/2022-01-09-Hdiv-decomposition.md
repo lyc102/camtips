@@ -44,13 +44,13 @@ Verification of
 $$
 \mathbb B_{r}^f(T) \subseteq \mathbb B_{r}({\rm div},T)
 $$
-is straight forward. For face $F$​ not containing $f$​, $b_f|_F = 0$​. For face $F$​ containing $f$​, $\tr_F \boldsymbol u = \boldsymbol n_F \cdot \boldsymbol u = 0$ as $\boldsymbol n_F\cdot \boldsymbol t_i^f = 0$​. Therefore $\oplus _{\ell = 1}^n\oplus _{f\in \Delta_{\ell}(T)} \mathbb B_r^f( T)\subseteq \mathbb B_r({\rm div} , T)$​
+is straight forward. For face $F$​ not containing $f$​, $b_f|_F = 0.$  For face $F$​ containing $f$​, $\tr_F \boldsymbol u = \boldsymbol n_F \cdot \boldsymbol u = 0$ as $\boldsymbol n_F\cdot \boldsymbol t_i^f = 0$​. Therefore $\oplus _{\ell = 1}^n\oplus _{f\in \Delta_{\ell}(T)} \mathbb B_r^f( T)\subseteq \mathbb B_r({\rm div} , T)$​
 
- Then apply the trace operator to the decomposition and use $\tr \mathbb{B}^f_r(T ) = 0$​​ to obtain ${\rm tr} \left ( \oplus _{\ell = 0}^{n-1}\oplus _{f\in \Delta_{\ell}(T)} \mathbb{N}^f_r( T)\right ) = {\rm tr} \mathbb P_r(T; \mathbb E^n)$​​. So the map $\tr$​​ is onto. 
+ Then apply the trace operator to the decomposition and use ${\rm tr} \mathbb{B}^f_r(T ) = 0$​​ to obtain ${\rm tr} \left ( \oplus _{\ell = 0}^{n-1}\oplus _{f\in \Delta_{\ell}(T)} \mathbb{N}^f_r( T)\right ) = {\rm tr} \mathbb P_r(T; \mathbb E^n)$​​.  So the map $\tr$​​ is onto. 
 
-Now we prove it is also injective. Take a function $\boldsymbol u=\sum\limits_{\ell = 0}^{n-1}\sum\limits_{f\in \Delta_{\ell}(T)}\boldsymbol u_r^f $​ with $\boldsymbol u_r^f \in \mathbb{N}^f_r(T)$​ and $\tr \boldsymbol u = 0$​. We will prove $\boldsymbol u = 0$​ by induction.
+Now we prove it is also injective. Take a function $\boldsymbol u=\sum\limits_{\ell = 0}^{n-1}\sum\limits_{f\in \Delta_{\ell}(T)}\boldsymbol u_r^f $ with $\boldsymbol u_r^f \in \mathbb{N}^f_r(T)$ and ${\rm tr} \boldsymbol u = 0.$ We will prove $\boldsymbol u = 0$ by induction.
 
-Since $\boldsymbol u(\texttt{v}_i)=\boldsymbol u_r^{\texttt{v}_i}(\texttt{v}_i)$ for $i=0,\ldots, n$, we get from $\tr \boldsymbol u = 0$ that $\boldsymbol u_r^{\texttt{v}_i}=\boldsymbol 0 $. Assume $\boldsymbol u_r^f=\boldsymbol 0 $ for all $f \in \Delta(T)$ whose dimension is less than $j$ with $1\leq j<n$. Then
+Since $\boldsymbol u(\texttt{v}_i)=\boldsymbol u_r^{\texttt{v}_i}(\texttt{v}_i)$ for $i=0,\ldots, n$, we get from ${\rm tr} \boldsymbol u = 0$ that $\boldsymbol u_r^{\texttt{v}_i}=\boldsymbol 0 $. Assume $\boldsymbol u_r^f=\boldsymbol 0 $ for all $f \in \Delta(T)$ whose dimension is less than $j$ with $1\leq j<n$. Then
 $$
 \boldsymbol u=\sum\limits_{\ell = j}^{n-1}\sum\limits_{f\in \Delta_{\ell}(T)}\boldsymbol u_r^f.
 $$
@@ -85,11 +85,8 @@ We can construct several H(div) finite elements by different choices of the $t-n
 DoFs on the normal space can be redistributed according to the following combinatory identity
 $$
 (n-\ell)
-
 { n+1 \choose \ell+1}
-
 =(n+1)
-
 {n \choose \ell + 1}.
 $$
 
