@@ -46,7 +46,7 @@ $$
 $$
 is straight forward. For face $F$​​ not containing $f$​​, $b_f|_F = 0.$​  
 
-For face $F$​​ containing $f$​​, $\tr_F \boldsymbol u = \boldsymbol n_F \cdot \boldsymbol u = 0$​ as $\boldsymbol n_F\cdot \boldsymbol t_i^f = 0$​​. Therefore $\oplus _{\ell = 1}^n\oplus _{f\in \Delta_{\ell}(T)} \mathbb B_r^f( T)\subseteq \mathbb B_r({\rm div} , T)$​​
+For face $F$​​​​ containing $f$​​​​, ${\rm tr}_F \boldsymbol u = \boldsymbol n_F \cdot \boldsymbol u = 0$​​ as $\boldsymbol n_F\cdot \boldsymbol t_i^f = 0$​​​. Therefore $\oplus _{\ell = 1}^n\oplus _{f\in \Delta_{\ell}(T)} \mathbb B_r^f( T)\subseteq \mathbb B_r({\rm div} , T)$​​​
 
  Then apply the trace operator to the decomposition and use ${\rm tr} \mathbb{B}^f_r(T ) = 0$​​​ to obtain 
 $$
