@@ -1,6 +1,6 @@
 ---
 title: "Geometric Decomposition of H(div) Finite Element"
-date: 2022-01-02
+date: 2022-01-09
 categories:
   - Blog
 tags:
@@ -12,7 +12,7 @@ Previously we use Lagrange elements as an example to introduce the simplicial la
 
 **Reference**: Section 4 of [Geometric Decompositions of Div-Conforming Finite Element Tensors](https://arxiv.org/abs/2112.14351). Long Chen and Xuehai Huang. *arXiv.* 2021.
 
-To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/01/02/simpliciallattice/)
+To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/01/09/geometric-decomposition-of-hdiv-finite-elements/)
 
 
 
@@ -211,7 +211,9 @@ By the Euler's formula for homogenous degree polynomials $\mathbb H_{r-1}(T)$, i
 
 ----
 
-To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/01/02/simpliciallattice/)
+To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/01/09/geometric-decomposition-of-hdiv-finite-elements/)
+
+
 
 
 
