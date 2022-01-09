@@ -44,9 +44,15 @@ Verification of
 $$
 \mathbb B_{r}^f(T) \subseteq \mathbb B_{r}({\rm div},T)
 $$
-is straight forward. For face $F$​ not containing $f$​, $b_f|_F = 0.$  For face $F$​ containing $f$​, $\tr_F \boldsymbol u = \boldsymbol n_F \cdot \boldsymbol u = 0$ as $\boldsymbol n_F\cdot \boldsymbol t_i^f = 0$​. Therefore $\oplus _{\ell = 1}^n\oplus _{f\in \Delta_{\ell}(T)} \mathbb B_r^f( T)\subseteq \mathbb B_r({\rm div} , T)$​
+is straight forward. For face $F$​​ not containing $f$​​, $b_f|_F = 0.$​  
 
- Then apply the trace operator to the decomposition and use ${\rm tr} \mathbb{B}^f_r(T ) = 0$​​ to obtain ${\rm tr} \left ( \oplus _{\ell = 0}^{n-1}\oplus _{f\in \Delta_{\ell}(T)} \mathbb{N}^f_r( T)\right ) = {\rm tr} \mathbb P_r(T; \mathbb E^n)$​​.  So the map $\tr$​​ is onto. 
+For face $F$​​ containing $f$​​, $\tr_F \boldsymbol u = \boldsymbol n_F \cdot \boldsymbol u = 0$​ as $\boldsymbol n_F\cdot \boldsymbol t_i^f = 0$​​. Therefore $\oplus _{\ell = 1}^n\oplus _{f\in \Delta_{\ell}(T)} \mathbb B_r^f( T)\subseteq \mathbb B_r({\rm div} , T)$​​
+
+ Then apply the trace operator to the decomposition and use ${\rm tr} \mathbb{B}^f_r(T ) = 0$​​​ to obtain 
+$$
+{\rm tr} \left ( \oplus _{\ell = 0}^{n-1}\oplus _{f\in \Delta_{\ell}(T)} \mathbb{N}^f_r( T)\right ) = {\rm tr} \mathbb P_r(T; \mathbb E^n).
+$$
+So the map $\tr$​​​​​ is onto. 
 
 Now we prove it is also injective. Take a function $\boldsymbol u=\sum\limits_{\ell = 0}^{n-1}\sum\limits_{f\in \Delta_{\ell}(T)}\boldsymbol u_r^f $ with $\boldsymbol u_r^f \in \mathbb{N}^f_r(T)$ and ${\rm tr} \boldsymbol u = 0.$ We will prove $\boldsymbol u = 0$ by induction.
 
@@ -56,7 +62,7 @@ $$
 $$
 Take $f\in \Delta_j(T)$. We have $\boldsymbol u|_f=\boldsymbol u_r^f|_f\in\mathbb{N}^f_r(T)$. Hence $(\boldsymbol u_r^f\cdot\boldsymbol n)|_f=(\boldsymbol u\cdot\boldsymbol n)|_f=0$ for any $\boldsymbol n\in\mathbb N_0^f$, which results in $\boldsymbol u_r^f=\boldsymbol 0 $. Therefore $\boldsymbol u = \boldsymbol 0 $.  
 
-Once we have proved the map $\tr$​​​ is bijective, we get the bubble decomposition from the decomposition for the vector Lagrange elements. 
+Once we have proved the map tr is bijective, we get the bubble decomposition from the decomposition for the vector Lagrange elements. 
 
 ![Hdivdec 19](https://lyc102.github.io/camtips/assets/images/Hdivdec 19.png)
 
