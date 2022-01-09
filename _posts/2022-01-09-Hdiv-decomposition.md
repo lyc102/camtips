@@ -209,6 +209,22 @@ By the Euler's formula for homogenous degree polynomials $\mathbb H_{r-1}(T)$, i
 
 ![Hdivdec 26](https://lyc102.github.io/camtips/assets/images/Hdivdec 26.png)
 
+The key is the characterization of the range of the bubble functions. 
+
+The inclusion $ {\rm div}( \mathbb B_r({\rm div}, T)) \subseteq \mathbb P_{r-1}/\mathbb R$ is proved through integration by parts
+$$
+({\rm div} \boldsymbol v, p)_T = -( \boldsymbol v, \grad p)_T = 0 \quad\forall~p\in \ker(\grad) = \mathbb R.
+$$
+
+
+If $ {\rm div}( \mathbb B_r({\rm div}, T)) \neq \mathbb P_{r-1}/\mathbb R$, there exists a $p\in \mathbb P_{r-1}/\mathbb R$ and $p\perp {\rm div}( \mathbb B_r({\rm div}, T))$, which is equivalent to $\grad p \perp \mathbb B_r({\rm div}, T)$. Expand the vector $\grad p$ in the basis $\{\boldsymbol n_i, i=1,\ldots, n\}$ as $\grad p = \sum\limits_{i=1}^n q_i {\boldsymbol n}_{i}$ with $q_i\in\mathbb P_{r-2}(T)$. Then set $\boldsymbol v_p = \sum\limits_{i=1}^n|\nabla\lambda_i| q_i \lambda_{0}\lambda_i \boldsymbol t_{i,0}\in \mathbb B_r({\rm div}, T)$, where $\boldsymbol t_{i,0}:=\texttt{v}_0-\texttt{v}_i$.
+
+We have
+$$
+(\grad p, \boldsymbol v_p)_T = \sum_{i=1}^n \int_Tq_i^2 \lambda_{0}\lambda_i {\rm d}x = 0,
+$$
+which implies $q_i = 0$ for $i=1,2,\ldots, n$, i.e., $\grad p = 0$ and $p = 0$ as $p\in \mathbb P_{r-1}/\mathbb R$.
+
 ----
 
 To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/01/09/geometric-decomposition-of-hdiv-finite-elements/)
