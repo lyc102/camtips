@@ -104,11 +104,8 @@ We can distribute $n-\ell$ copies of DoFs on an $\ell$-dimensional $f$ to each f
 We have the geometric decomposition of the global BMD element space
 $$
 \begin{align*}
-
 V_{\small \rm BDM} = &\oplus_{F\in \Delta_{n-1}(\mathcal T_h)} \oplus_{\ell = 0}^{n-1}\oplus_{f\in \Delta_{\ell}(F)} \mathbb N^f_r(F, \Omega)\\
-
 &\oplus \oplus_{T\in \mathcal T_h} \oplus_{\ell = 1}^n\oplus_{f\in \Delta_{\ell}(T)} \mathbb B^f_r(T, \Omega)
-
 \end{align*}
 $$
 
@@ -120,13 +117,9 @@ $$
 Here
 $$
 \begin{align*}
-
 \mathbb N^f_r(F, \Omega):=&\{\boldsymbol v_h\in H({\rm div}, \Omega): \boldsymbol v_h|_T\in\mathbb N^f_r(T)\; \textrm{ for } T\in\mathcal T_h, F\subseteq T, \\
-
 &\qquad\qquad\qquad\qquad\qquad\, \boldsymbol v_h|_{T'}=\boldsymbol 0 \;\textrm{ for } T'\in\mathcal T_h, F\not\subseteq T'\},\\
-
 \mathbb B^f_r(T, \Omega):=&\{\boldsymbol v_h\in H({\rm div}, \Omega): \boldsymbol v_h|_T\in\mathbb B^f_r(T), \, \boldsymbol v_h|_{T'}=\boldsymbol 0 \;\textrm{ for } T'\in\mathcal T_h\backslash\{T\}\}.
-
 \end{align*}
 $$
 
@@ -143,11 +136,8 @@ When $k=0$​, it is the original Stenberg's element [Stenberg 2010], i.e., only
 We have the geometric decomposition of the global Stenberg element space
 $$
 \begin{align*}
-
 V_{\small \rm Stenberg}^r &= \oplus_{\ell = 0}^{k}\oplus_{f\in \Delta_{\ell}(\mathcal T_h)} \mathbb N^f_r(\Omega) \oplus \oplus_{F\in \Delta_{n-1}(\mathcal T_h)}\oplus_{\ell = k+1}^{n-1}\oplus_{f\in \Delta_{\ell}(F)} \mathbb N^f_r(F, \Omega) \\
-
 &\quad \oplus \oplus_{T\in \mathcal T_h} \oplus_{\ell = 1}^n\oplus_{f\in \Delta_{\ell}(T)} \mathbb B^f_r(T, \Omega)
-
 \end{align*}
 $$
 
@@ -155,11 +145,8 @@ $$
 and
 $$
 \begin{align*}
-
 \dim V_{\small \rm Stenberg}^r& = \sum_{\ell = 0}^{k}|\Delta_{\ell}(\mathcal T_h)| (n - \ell ){ r-1 \choose \ell} + |\Delta_{n-1}(\mathcal T_h)| \sum_{\ell = k+1}^{n-1}{n \choose \ell +1} {r-1 \choose \ell} \\
-
 &\quad + |\Delta_n(\mathcal T_h)|\sum_{\ell=1}^n {n+1 \choose \ell +1} \ell {r-1 \choose \ell}.
-
 \end{align*}
 $$
 
@@ -167,11 +154,8 @@ $$
 Here
 $$
 \begin{align*}
-
 \mathbb N^f_r(\Omega):=&\{\boldsymbol v_h\in H({\rm div}, \Omega): \boldsymbol v_h|_T\in\mathbb N^f_r(T)\; \textrm{ for } T\in\mathcal T_h, f\subseteq T, \\
-
 &\qquad\qquad\qquad\qquad\qquad\, \boldsymbol v_h|_{T'}=\boldsymbol 0 \;\textrm{ for } T'\in\mathcal T_h, f\not\subseteq T'\}.
-
 \end{align*}
 $$
 
