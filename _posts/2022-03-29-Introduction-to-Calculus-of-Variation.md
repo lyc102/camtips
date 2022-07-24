@@ -77,21 +77,22 @@ with a typical example
 
 - $\mathcal M = \\{x\in C^1(0,1), x(0) = x_0, x(1) = v_1\\}$
 
-- $\displaystyle L(t,x,v) = \frac{1}{2}m |v|^2 - U(x)$ is the difference of kinetic energy $T(v) = \frac{1}{2}m |v|^2 $ and potential energy $U(x)$.
+- $\displaystyle L(t,x,v) = \frac{1}{2}m \|v\|^2 - U(x)$ is the difference of kinetic energy $T(v) = \frac{1}{2}m \|v\|^2 $ and potential energy $U(x)$.
 
-Recall that the first order condition for $\eqref{eq:opt}$ is $f'(x) = 0$. But now $x = x(t)$ itself is a function and change in every point $t\in (0,1)$. How to take derivative of a function?
+Recall that the first order condition for \eqref{eq:opt} is $f'(x) = 0$. But now $x = x(t)$ itself is a function and change in every point $t\in (0,1)$. How to take derivative of a function?
 
 <img src="{{site.baseurl}}/assets/images/variation.jpg" alt="variation" style="zoom:100%;" />
 
 The idea is to introduce a variation of the function. Let $\phi$ be a test function in $\mathcal M_0$ satisfies certain boundary conditions so that $x+\epsilon \phi\in \mathcal M$. The term $\epsilon \phi$ is an *variation* of $x$. Define $f(\epsilon): = I(x+\epsilon \phi)$. Then $x$ is an infimum of $\eqref{eq:cov}$ if and only if $0$ is a minimum of $f(\epsilon)$. So the optimality condition of an extreme curve $x$ of $I(x)$ is characterized as
+
 $$
-f'(0) = \frac\text{d}{\rm d \epsilon} I(x+\epsilon \phi) |_{\epsilon = 0} = 0,
+f'(0) = \frac{\text{d}}{\text{d} \epsilon} I(x+\epsilon \phi) \big|_{\epsilon = 0} = 0,
 $$
 
 - **Chain rule.** By the chain rule, we obtain the variational form of Euler-Lagrange equation
 
 $$
-\label{intro:weakEL}
+\tag{3}\label{intro:weakEL}
 \int_0^1 L_x(t, x, \dot{x}) \phi + L_v(t, x, \dot{x}) \dot{\phi} = 0 \quad \forall \phi \in \mathcal M_0.
 $$
 
@@ -100,21 +101,24 @@ $$
 - **Integration by parts**. Take $\phi \in C^{\infty}_0(0,1) = \{\phi \in C^{\infty}(0,1): \phi^{(\alpha)}(0)=\phi^{(\alpha)}(1) = , \forall \alpha \in \mathbb N\}$ and apply integration by parts, we obtain
 
 $$
-\int_0^1 \left [L_x(t, x, \dot{x}) - \frac\text{d}{\rm d t}L_v(t, x, \dot{x})\right ] \phi = 0 \quad \forall \phi \in C^{\infty}_0(0,1)\subset \mathcal M_0.
+\int_0^1 \left [L_x(t, x, \dot{x}) - \frac{\text{d}}{\text{d} t} L_v(t, x, \dot{x})\right ] \phi = 0 \quad \forall \phi \in C^{\infty}_0(0,1)\subset \mathcal M_0.
 $$
 
 The boundary terms disappeared as $\phi \in C^{\infty}_0(0,1)$. Now use $C^{\infty}_0(0,1)$ is dense in $L^2(0,1)$, we conclude the strong form of Euler-Lagrange equation
+
 $$
-\label{intro:1dEL} 
-- \frac\text{d}{\rm d t} L_v(t, x(t), \dot{x}(t)) + L_x (t, x(t), \dot{x}(t)) = 0. 
+\tag{4}\label{intro:1dEL} 
+- \frac{\text{d}}{\text{d} t} L_v(t, x(t), \dot{x}(t)) + L_x (t, x(t), \dot{x}(t)) = 0. 
 $$
 
 
-For $L(t,x,v) = \frac{1}{2}m |v|^2 - U( x)$, $\eqref{intro:1dEL}$ becomes the Newton's equation
+For $L(t,x,v) = \frac{1}{2}m \|v\|^2 - U( x)$, \eqref{intro:1dEL} becomes the Newton's equation
+
 $$
 m \ddot{x} = F,\quad \text{ with }F = - \nabla_x U.
 $$
-which is known as ``Hamilton's form of the principle of least action". 
+
+which is known as "Hamilton's form of the principle of least action". 
 
 - **Change of variables.** Consider change of variables 
 
@@ -129,14 +133,16 @@ p & = L_{v}(t, q,\dot{q}).
 $$
 
 Assume $L$ is convex in $v$. Then we can solve $\dot{q} = \dot{q}(p)$. Define Hamiltonian
+
 $$
-\label{intro:Hamiltonian}
+\tag{5}\label{intro:Hamiltonian}
 H(p,q,t) := p \dot{q}(p) - L(t, q, \dot{q}(p)).
 $$
-Then the Euler-Lagrange becomes the Hamiltonian system
-$$
-\label{eq:Hsystem}
 
+Then the Euler-Lagrange becomes the Hamiltonian system
+
+$$
+\tag{6}\label{eq:Hsystem}
 \left \{ \, \begin{aligned}
 
 \dot{p} &= - H_q,\\
@@ -145,18 +151,23 @@ $$
 
 \end{aligned}\right.
 $$
-To derive the Hamiltonian system, we apply total differentiation to both sides of $\eqref{intro:Hamiltonian}$ to get $\text{d} H= H_p \text{d} p + H_q \text{d} q+ H_t \text{d} t$  and  $p \text{d} \dot{q}+\dot{q} \text{d} p-L_t \text{d} t - L_q \text{d} q- L_v d \dot{q} = \dot{q} \text{d} p- \dot{p} \text{d} q -L_t \text{d} t.$ 
+
+To derive the Hamiltonian system, we apply total differentiation to both sides of $\eqref{intro:Hamiltonian}$ to get $\text{d} H= H_p \text{d} p + H_q \text{d} q+ H_t \text{d} t$ and $p \text{d} \dot{q}+\dot{q} \text{d} p-L_t \text{d} t - L_q \text{d} q- L_v d \dot{q} = \dot{q} \text{d} p- \dot{p} \text{d} q -L_t \text{d} t.$ 
 
 The last step is due to $p = L_v$ by definition and E-L equation $L_q = \dot{p}$ in terms of new variables. 
 
 When Hamiltonian $H(p,q)$ is independent of $t$, for solutions to the Hamiltonian system, we obtain the conservation of Hamiltonian, i.e.
+
 $$
 \frac{\text{d} }{\text{d} t}H(p(t),q(t)) = H_p \dot{p} + H_q \dot{q} = 0.
 $$
-An important example is $L = T - U$. For $T (v) = \frac{1}{2}m |v|^2$, the variable $p = mv$ is the momentum. Then
+
+An important example is $L = T - U$. For $T (v) = \frac{1}{2}m \|v\|^2$, the variable $p = mv$ is the momentum. Then
+
 $$
 H = p\dot{q}(p) - L = pv - T(v) - U(q) = \frac{1}{2}m |v|^2 + U(q) = T + U
 $$
+
 is the total energy. From Noether's point of view, the conservation of energy is due to the translation invariant in time. Better using symmetry instead of invariance.
 
 - Time translation symmetry: conservation of energy;
