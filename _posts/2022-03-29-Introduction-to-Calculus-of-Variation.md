@@ -3,8 +3,8 @@ title: "Introduction to Calculus of Variation"
 date: 2022-03-29
 categories:
   - Blog
-tags:
   - Teaching
+tags:
   - Calculus of Variation
 
 ---
