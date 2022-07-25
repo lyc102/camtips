@@ -94,7 +94,7 @@ $$
 p(u) + p(v) = \frac{\| u + v\|}{\|c_{u+v}\|} \geq  \frac{\| u + v\|}{\|g(n_{u+v})\|} = p(u+v). \notag
 $$
 
-<img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/Minfunctional.jpg" alt="Minfunctional" style="zoom:50%;" />
+<img src="https://lyc102.github.io/camtips/assets/images/Minfunctional.jpg" alt="Minfunctional" style="zoom:40%;" />
 
 ## Minkowski Sum/Difference
 
@@ -110,13 +110,13 @@ Recall that $A+b$ is a translation of $A$. Then $A+B$ consists of copies of $A$ 
 
 2. Sum of two disks are a larger disk. 
 
-   <img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/Minsum.svg" alt="Minsum" style="zoom:50%;" />
+   <img src="https://lyc102.github.io/camtips/assets/images/Minsum.svg" alt="Minsum" style="zoom:50%;" />
 
-<img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/Minkowski-sum-of-a-polygon-with-a-disk.jpg" alt="Minkowski-sum-of-a-polygon-with-a-disk" style="zoom:50%;" />
+<img src="https://lyc102.github.io/camtips/assets/images/Minkowski-sum-of-a-polygon-with-a-disk.jpg" alt="Minkowski-sum-of-a-polygon-with-a-disk" style="zoom:50%;" />
 
 
 
-<img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/Minsumtwopolygons.jpg" alt="Minsumtwopolygons" style="zoom:80%;" />
+<img src="https://lyc102.github.io/camtips/assets/images/Minsumtwopolygons.jpg" alt="Minsumtwopolygons" style="zoom:80%;" />
 
 If $A$ and $B$ are convex subsets of a vector space $V$, then $A+B$ and $A-B$ are convex.
 
