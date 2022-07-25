@@ -5,7 +5,6 @@ categories:
   - Blog
   - Teaching
 tags:
-  - Teaching
   - Convex Analysis
 ---
 
