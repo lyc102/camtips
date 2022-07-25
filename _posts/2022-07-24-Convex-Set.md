@@ -24,41 +24,33 @@ We give an "inside\" definition of convexity in which the order structure (not t
 
 ## Definition
 
-A subset $K$ of a vector space $V$ is convex if 
+A subset $K$ of a linear space $V$ is convex if 
 $$
 x,y\in K, \lambda \in (0,1) \longrightarrow (1- \lambda)x + \lambda y \in K.
 $$
-Recall for a linear subspace $S$, it requires $\alpha x + \beta y \in S$ for any $\alpha, \beta \in \mathbb R$. The convexity restricts the
-coefficients to $\alpha + \beta = 1, \alpha, \beta \geq 0$. Geometrically, convexity implies the line segment connecting $x$ and $y$ is inside the set while the linear subspace implies the plane spanned by vectors $x$ and $y$ is contained in the subspace. In particular, $0$ must be in a subspace while a convex set may not containing the origin.
-
-The convexity is translation invariant. That is if $K$ is convex, so is $K + z :=\{x+ z: x\in K\}$ for any $z\in V$ and $K+z \cong K$. The intrinsic property of a convex set is thus translation invariant. So depending on the context, assumption $0\in K$ or $0\notin K$ can be easily satisfied by translation.
-
-A convex set may not be closed, e.g., an open ball. In most cases, we shall talk about closed convex sets. A convex set may not be bounded. An example is a *convex cone* $K$ which is defined as if $x\in K$, then
-$\lambda x\in K$ for all $\lambda \geq 0$. A cone may not be convex as by definition it contains the whole ray $\lambda x$ for all
-$\lambda \in \mathbb R$. A convex set may not contain an interior point, e.g., a line segment in $\mathbb R^n, n> 1$.
+Recall for a linear subspace $S$, it requires $\alpha x + \beta y \in S$ for any $\alpha, \beta \in \mathbb R$. The convexity restricts the weight to $\alpha + \beta = 1, \alpha, \beta \geq 0$. Geometrically, convexity implies the line segment connecting $x$ and $y$ is inside the set while the linear subspace implies the plane spanned by vectors $x$ and $y$ is contained in the subspace. In particular, $0$ must be in a subspace while a convex set may not containing the origin.
 
 <img src="https://lyc102.github.io/camtips/assets/images/convexset.png" alt="convexset" style="zoom:50%;" />
 
 <img src="https://lyc102.github.io/camtips/assets/images/nonconvexset.png" alt="nonconvexset" style="zoom:50%;" />
 
+The convexity is translation invariant. That is if $K$ is convex, so is $K + z :=\{x+ z: x\in K\}$ for any $z\in V$ and $K+z \cong K$. The intrinsic property of a convex set is thus translation invariant. Depending on the context, assumption $0\in K$ or $0\notin K$ can be easily satisfied by translation.
+
+A convex set may not be closed, e.g., an open ball. A convex set may not be bounded. An example is a *convex cone* $K$ which is defined as if $x\in K$, then $\lambda x\in K$ for all $\lambda \geq 0$. On the other hand, a cone may not be convex as by definition it contains the whole ray $\lambda x$ for all $\lambda \in \mathbb R$. A convex set may not contain an interior point, e.g., a line segment in $\mathbb R^n, n> 1$.
+
 
 
 ## Minkowski Functional
+In the philosophy of Descartes, we introduce an algebraic tool to study the geometry of convex sets.
 
-The Minkowski sum/difference of two sets $A$ and $B$ in a vector space $V$ is
+**Definition 1**. *Let $K$ be a set in a normed vector space $V$. The Minkowski functional or gauge function of $K$ is a functional $p: V \rightarrow \mathbb{R}$, defined by* 
 $$
-A+B:=\{ a+ b \mid a\in A, b\in B\},\\
-A-B:=\{ a -  b \mid a\in A, b\in B\}.
+p(v)=\inf \{\lambda>0, v \in \lambda K\}.
 $$
-Recall that $A+b$ is a translation of $A$. Then $A+B$ consists of copies of $A$ with center moving around the points in $B$. You can think about the stamp tool in Photoshop.  
-
-If $A$ and $B$ are convex subsets of a vector space $V$, then $A+B$ and $A-B$ are convex.
-
-**Definition 1**. *Let $K$ be a set in a normed vector space $V$. The Minkowski functional or gauge function of $K$ is a functional $p: V \rightarrow \mathbb{R}$, defined by $p(v)=\inf \{\lambda>0, v \in \lambda K\}$.*
 
 By convention, $\inf\varnothing = +\infty$. To be real valued, we assume $0\in \stackrel{\circ}{K}$. Then $p$ has value in $[0,\infty)$.
 
-Minkowski functional allow one to "translate\" certain geometry properties of a subset into certain algebraic properties of a function. For example, 
+Minkowski functional allow one to "translate\" some geometry properties of a subset into algebraic properties of a function. For example, 
 $$
 \label{eq:Kp}
 \stackrel{\circ}{K} = \{x: p(x) < 1\}, \quad \overline{K} =  \{x: p(x) \leq 1\}.
@@ -67,15 +59,22 @@ For $x\notin K$, $p(x)$ is the factor by which the set $K$ must be dilated in or
 
 As convexity is translation invariant, we can set an element of $K$ as the origin and define a function on the unit sphere 
 $$
-g: S_1(0)\to \mathbb R_{+}\quad g(n) = \sup_{\mu n\in K} \{\mu > 0\}.
+g: S_1(0)\to \mathbb R_{+}\quad g(n) = \sup \{\mu > 0, \mu n\in K\}.
 $$
 It can be thought of as the diameter of  $K$ in the direction $n$. If $K$ is unbounded in the direction $n$, then $g(n) = +\infty$. Let $n_v = v/\|v\|$ be the direction vector of $v$. Then we have the relation 
 $$
 p(v) = \frac{\|v \|}{g(n_v)}, \quad v = p(v) g(n_v)n_v. \label{eq:pg}
 $$
-The point $k(v) :=g(n_v)n_v\in \bar K$ is the furtherest point in $\bar K$ in the direction $n_v$ and $p(v)$ is the ratio $\|v\|/\|k(v)\|$. The relation $\eqref{eq:pg}$ shows the relation of Minkowski functional and the norm. When $K$ is the unit ball $B_{1}(0)$, $p(\cdot)$ is the norm $\|\cdot\|$. 
+The point $k(v) :=g(n_v)n_v\in \bar K$ is the furtherest point in $\bar K$ in the direction $n_v$ and $p(v)$ is the ratio $\|v\|/\|k(v)\|$. The identity $\eqref{eq:pg}$ generalizes the relation of Minkowski functional and the norm. When $K$ is the unit ball $B_{1}(0)$, $p(\cdot)$ is the norm $\|\cdot\|$. 
 
 The convexity property is translated to the algebraic property: the Minkowski functional is sub-linear.
+
+Recall that A real-valued function $p: X\to \mathbb R$ is called a sublinear function or sometimes called a quasi-seminorm if it has these two properties:
+
+- Positive homogeneity/Nonnegative homogeneity: 
+$p(rx)=rp(x)$  for all real $r\geq 0,x \in X$.
+- Subadditivity/Triangle inequality: 
+$p(x+y)\leq p(x)+p(y)$ for all $x,y\in X$
 
 **Lemma 2**. *Let $K$ be a nonempty convex set in a normed vector space $V$ such that $0 \in \stackrel{\circ}{K}$. Then $p(v)=\inf \{\lambda>0, v\in \lambda K\}$ is sub-additive and positive homogeneous.* 
 
@@ -95,6 +94,33 @@ $$
 p(u) + p(v) = \frac{\| u + v\|}{\|c_{u+v}\|} \geq  \frac{\| u + v\|}{\|g(n_{u+v})\|} = p(u+v). \notag
 $$
 
+<img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/Minfunctional.jpg" alt="Minfunctional" style="zoom:50%;" />
+
+## Minkowski Sum/Difference
+
+The Minkowski sum/difference of two sets $A$ and $B$ in a vector space $V$ is
+$$
+A+B:=\{ a+ b \mid a\in A, b\in B\},\\
+A-B:=\{ a -  b \mid a\in A, b\in B\}.
+$$
+Recall that $A+b$ is a translation of $A$. Then $A+B$ consists of copies of $A$ with center moving around the points in $B$. Think about the clone stamp tool in Photoshop.  
+
+**Examples.**
+1. Sum of one vertical line and a horizontal line is a square.
+
+2. Sum of two disks are a larger disk. 
+
+   <img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/Minsum.svg" alt="Minsum" style="zoom:50%;" />
+
+<img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/Minkowski-sum-of-a-polygon-with-a-disk.jpg" alt="Minkowski-sum-of-a-polygon-with-a-disk" style="zoom:50%;" />
+
+
+
+<img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/Minsumtwopolygons.jpg" alt="Minsumtwopolygons" style="zoom:80%;" />
+
+If $A$ and $B$ are convex subsets of a vector space $V$, then $A+B$ and $A-B$ are convex.
+
+
 
 ## Separation of Convex Sets
 
@@ -109,16 +135,12 @@ $$
 $$
 *And the solution* $x^*$  *is defined as the projection of $v$ to $K$ and denoted by* $P_K(v) = x^*$.
 
-
-
 The existence of the minimizer will depend on the completeness of $\mathbb R^n$ and the convexity implies the uniqueness. Then use the vector $n = v - P_K v$ as a normal vector and set $c = (n, P_Kv)$ to
 define a hyperplane separating the point $v$ with $K$.
 
-
-
 **Lemma 4**. *Let $K$ be a nonempty, closed, and convex subset of $\mathbb R^n$. Let $v\not\in K$. Then $K$ and $v$ is separated by the hyperplane $\mathcal H(n,c)=\{x\in \mathbb R^n: (n, x) = c\}$ with $n = v- P_Kv$ and $c =  (n, P_Kv)$ in the sense that*
 $$
-(p, x) < (p, v) \quad \forall x\in \stackrel{\circ}{K}.
+(p, x) < (p, v) \quad \forall x\in \stackrel{\circ}{K}. \notag
 $$
 
 
@@ -133,7 +155,7 @@ where $0 \neq f \in X^{*}$ and $c$ is a scalar, is referred to as a hyperplane. 
 $$
 \langle f, x\rangle < \langle f, v\rangle \quad \forall x\in K.
 $$
-*Proof.* Like the $\mathbb R^n$ case, we are going to use $\langle f, x \rangle$ to change set to interval in $\mathbb R$. The extension in Hilbert space is naturally done by the inner product and the extension in a normed vector space will be done by Hahn-Bahn theorem.
+*Proof.* Like the $\mathbb R^n$ case, we are going to use $\langle f, x \rangle$ to change set to interval in $\mathbb R$. The extension in Hilbert space is naturally done by the inner product and the extension in a normed vector space will be achieved by Hahn-Bahn theorem.
 
 Take the 1-D subspace $S = \{ t v: t\in \mathbb R\}$ and define $f(tv) = t$. The sub-linear function $p$ is the Minkowski functional $p$ of $K$. As $v\not\in K$, $p(v)\geq 1$. Verification $f(x) \leq p(x)$ for all $x\in S$ is straightforward. Then we can extend and still denote by $f\in X'$.
 
@@ -141,13 +163,13 @@ Then $\langle f, x\rangle \leq p(x)< 1 =  \langle f, v\rangle$ for $x\in K$. The
 
 **Theorem 6** (Hahn-Banach separation). *Let $K_{1}$ and $K_{2}$ be nonempty, disjoint convex subsets of the normed vector space $X$. They can be separated in the two following cases:*
 
-1. *If $K_{1}$ is open, there exist $f \in X'$ and $\gamma \in \mathbb{R}$ such that
-   $$\langle f, x\rangle<\gamma \leqslant\langle f, y\rangle \quad \forall x \in K_{1}, y \in K_{2}.$$*
+1. *If $K_{1}$ is open, there exist $f \in X'$ and $\gamma \in \mathbb{R}$ such that* $$
+   \langle f, x\rangle<\gamma \leqslant\langle f, y\rangle \quad \forall x \in K_{1}, y \in K_{2}. \notag
+   $$
 
-2. *If $K_{1}$ is compact and $K_{2}$ is closed, there exist $p \in X'$ and $\gamma_{1}, \gamma_{2} \in \mathbb{R}$ such that $$\langle f, x\rangle<\gamma_{1}<\gamma_{2}<\langle f, y\rangle \quad \forall x \in K_{1}, y \in K_{2} .$$
-   The second type of separation above is called strict.*
+1. *If $K_{1}$ is compact and $K_{2}$ is closed, there exist $p \in X’$ and $\gamma_{1}, \gamma_{2} \in \mathbb{R}$ such that* $$\langle f, x\rangle<\gamma_{1}<\gamma_{2}<\langle f, y\rangle \quad \forall x \in K_{1}, y \in K_{2} .$$
+   *The second type of separation above is called strict.*
 
-   
 
 *Proof.* (1) Pick up $x_1\in K_1$ and $x_2\in K_2$ and set $v = x_2 - x_1$. Let $K = K_1 - K_2 + v$. Then $K$ is an open convex set containing $0$ and $v\in K$ since $K_1\cap K_2 = \varnothing$. We apply [Lemma 5](#lm:pointK) to find $f$ separating $v$ and $K$.
 
@@ -161,7 +183,7 @@ $$
 $$
 Then chose $\gamma = \sup f(K_1)$ to obtain the desired conclusion.
 
-\(2\) We can extend $K_1$ slightly as $K_{1+\epsilon}:= K_1 + \stackrel{\circ}B_{\epsilon}(0)$ which is open and convex and still disjoint with $K_2$. The compactness of $K_1$ is used to find finite covering using small balls to define such an extension.
+(2) We can extend $K_1$ slightly as $K_{1+\epsilon}:= K_1 + \stackrel{\circ}B_{\epsilon}(0)$ which is open and convex and still disjoint with $K_2$. The compactness of $K_1$ is used to find finite covering using small balls to define such an extension.
 $K_2$ is closed means such ball exists as $K_2^c$ is open. Then apply (1). Now the inequality
 $$
 \max f(K_1) < \sup f( K_{1+\epsilon}) \leq \inf f(K_2) \notag
