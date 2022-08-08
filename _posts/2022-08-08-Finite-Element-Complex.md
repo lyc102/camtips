@@ -16,7 +16,7 @@ Philosophically speaking, the understanding becomes clearer because there is a m
 
 D. N. Arnold and A. Logg. **Periodic Table of the Finite Elements**, *SIAM News*, 47 (9), 2014.
 
-![FEMtable](/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/FEMtable.png)
+![FEMtable](https://lyc102.github.io/camtips/assets/images/FEMtable.png)
 
 From this point of view, our recent work has greatly expanded this element table to include almost all known conforming finite elements, while also constructing many more finite elements.
 
@@ -26,7 +26,7 @@ The construction of tensor finite elements can be put into the framework of fini
 
 Arnold and K. Hu. **Complexes from complexes.** *Found Comput Math*. 2021.
 
-![3DBGG](/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/3DBGG.png)
+![3DBGG](https://lyc102.github.io/camtips/assets/images/3DBGG.png)
 
 By tracing the diagram with cetain rules, one can get more complexes.
 
@@ -42,4 +42,4 @@ Technically speaking, combinatorics is used the most, and sort of algebraic topo
 
 Our goal is the sea of stars. Constructing finite element spaces for tensors, ensuring the stability of numerical methods and the convergence of numerical solutions, is the first step in the Long March. In the next series of posts, I will take you slowly into the burgeoning research field of finite element complexes.
 
-![StarSea](/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/StarSea.png)
+![StarSea](https://lyc102.github.io/camtips/assets/images/StarSea.png)
