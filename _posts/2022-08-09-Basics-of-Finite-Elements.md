@@ -1,6 +1,6 @@
 ---
 title: "Basics of Finite Elements"
-date: 2022-08-08
+date: 2022-08-09
 categories:
   - Blog
   - Research
