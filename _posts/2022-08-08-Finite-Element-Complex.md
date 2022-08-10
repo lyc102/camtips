@@ -43,3 +43,10 @@ Technically speaking, combinatorics is used the most, and sort of algebraic topo
 Our goal is the sea of stars. Constructing finite element spaces for tensors, ensuring the stability of numerical methods and the convergence of numerical solutions, is the first step in the Long March. In the next series of posts, I will take you slowly into the burgeoning research field of finite element complexes.
 
 ![StarSea](https://lyc102.github.io/camtips/assets/images/StarSea.png)
+
+
+
+----
+
+To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/08/09/finite-element-complex/)
+

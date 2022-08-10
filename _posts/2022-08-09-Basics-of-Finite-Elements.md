@@ -9,7 +9,7 @@ tags:
   - Complex
 ---
 
-<img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/part1FEM2.png" alt="part1FEM2" style="zoom:80%;" />
+<img src="https://lyc102.github.io/camtips/assets/images/part1FEM2.png" alt="part1FEM2" style="zoom:80%;" />
 
 
 
@@ -17,7 +17,7 @@ What is finite element? From a function approximation point of view, a finite el
 
 This space is finite-dimensional, and its dimension is equal to the number of vertices of the mesh. The basis function corresponding to a vertex is drawn on the left. Because of its shape, we usually call it a hat function.
 
-<img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/part1FEM 5.png" alt="part1FEM 5" style="zoom:80%;" />
+<img src="https://lyc102.github.io/camtips/assets/images/part1FEM 5.png" alt="part1FEM 5" style="zoom:80%;" />
 
 Let us now define finite elements mathematically. Ciarlet defines a finite element as a triple: $(K,V,\mathcal{N})$
 
@@ -53,7 +53,7 @@ We will return to the construction of $C^{m}(\Omega)$ finite elements later on.
 
 Let's go back and look at a few simple examples.
 
-<img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/part1FEM 6.png" alt="part1FEM 6" style="zoom:80%;" />
+<img src="https://lyc102.github.io/camtips/assets/images/part1FEM 6.png" alt="part1FEM 6" style="zoom:80%;" />
 
 The shape function space is a linear (degree 1) polynomial $\mathbb{P}_{1}$. In $\mathbb R^2$, its dimension is 3, which can be determined by 3 degrees of freedoms. The DoFs of the element on the left are the values on the vertices, and the DoFs of the element on the right are the values on the midpoints of edges. Restricted to each triangle, both choices satisfy Condition 1, that is, a linear polynomial can be uniquely determined by either function values on 3 vertices or function values on 3 midpoints of edges.
 
@@ -61,23 +61,23 @@ The function on the left is continuous at the vertices of the triangle, and the 
 
 Non-conforming elements can also be used to solve PDEs, but the theoretical analysis is more complicated. In this series, we focus on conforming finite elements.
 
-<img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/part1FEM 7.png" alt="part1FEM 7" style="zoom:80%;" />
+<img src="https://lyc102.github.io/camtips/assets/images/part1FEM 7.png" alt="part1FEM 7" style="zoom:80%;" />
 
 We then look at the quadratic element $\mathbb{P}_{2}$, whose dimension is 6. Then 6 DoFs are required. One option is 3 vertex values plus 3 edge midpoint values. This choice satisfies conditions 1 and 2. On the right is the basis function corresponding to vertex 1, which is a quadratic polynomial taking value 1 at point 1 and 0 at other points.
 
-<img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/part1FEM 8.png" alt="part1FEM 8" style="zoom:80%;" />There are other choices of 6 DoFs. If each edge is taken two points, the degrees of freedom formed in this way are not necessarily a basis of the dual space. That is, the DoFs chosen in this way are not necessarily linearly independent. If these 6 points are in a circle, the right hand side is a quadratic polynomial, which vanishes at the 6 points, but is non-zero itself.
+<img src="https://lyc102.github.io/camtips/assets/images/part1FEM 8.png" alt="part1FEM 8" style="zoom:80%;" />There are other choices of 6 DoFs. If each edge is taken two points, the degrees of freedom formed in this way are not necessarily a basis of the dual space. That is, the DoFs chosen in this way are not necessarily linearly independent. If these 6 points are in a circle, the right hand side is a quadratic polynomial, which vanishes at the 6 points, but is non-zero itself.
 
 Note that if these two points are taken as Gaussian quadrature points on the edge, it can ensure that the function is continuous across edges. That is, condition 2 can be satisfied, but condition 1 cannot. So it is not simply counting the dimensions.
 
 This example was constructed by Fortin while trying to generalize CR linear non-conforming element to quadratic non-conforming element. High-order non-conforming elements are not easy to construct under the framework of finite elements, but can be better constructed under the framework of Weak Galerkin or Virtual Element spaces.
 
-<img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/part1FEM 9.png" alt="part1FEM 9" style="zoom:80%;" />
+<img src="https://lyc102.github.io/camtips/assets/images/part1FEM 9.png" alt="part1FEM 9" style="zoom:80%;" />
 
 From $\mathbb P_1$ to $\mathbb P_2$ and to the higher order, the Lagrange element is easy to generalize to $\mathbb{P}_{k}$ for all integers $k\geq 1$. In two dimensions, the triangle is divided into four, and repeated $k-1$ times. The DoFs are the function values at the vertices of all small triangles.
 
 **Exercise:** Prove that the unisolvence of DoFs and that the function defined is globally continuous.
 
-<img src="/Users/longchen1/Dropbox/Math/MathNotes/camtips/assets/images/part1FEM 10.png" alt="part1FEM 10" style="zoom:80%;" />
+<img src="https://lyc102.github.io/camtips/assets/images/part1FEM 10.png" alt="part1FEM 10" style="zoom:80%;" />
 
 The Lagrange element can also be easily extended to three dimensions. The idea is to divide the tetrahedron repeatedly, and then use the function values on vertices of the small tetrahedron as DoFs. The idea seems to be the same, but it's not so intuitive when it comes to 3D. A proof that seems obvious in 2D, is not so obvious in 3D, and such generalization is not trivial.
 
@@ -85,10 +85,14 @@ For example, consider a small problem first. In two dimensions, add the midpoint
 
 From a programming point of view, the uniform refinement of 3D tetrahedral meshes is not so obvious, and requires strict rules on the order of vertices. For details, please refer to the `uniformrefine3` function in the ifem package.
 
-> By the way, almost all figures are all produced using ifem. Welcome to download and try ifem.
+> Almost all figures are all produced using ifem. Welcome to download and try ifem.
 
 **Exercise:** Prove the unisolvence of the three-dimensional Lagrange element and prove that the function defined is globally continuous.
 
 After the 2D and 3D are done, what about the $n$-dimension? For a $n$-dimension simplex, add the midpoint of each edge, and then connect it into small simplexes, how many can it be divided into? After $k-1$ times  division, how many vertices are there in total? Is its number equal to the dimension of $\mathbb{P}_{k}(\mathbb{R}^{n})$? If it is equal, how to prove the unisolvence? How can we say that the function as a whole is continuous?
 
 Interested readers can think about it, there is a very beautiful and complete answer to this question. We'll talk about it next time.
+
+---
+
+To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/08/09/finite-element-complex/)
