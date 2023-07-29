@@ -95,4 +95,4 @@ Interested readers can think about it, there is a very beautiful and complete an
 
 ---
 
-To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/08/09/finite-element-complex/)
+To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/08/10/basics-of-finite-elements/)
