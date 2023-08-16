@@ -216,5 +216,7 @@ which implies $q_i = 0$ for $i=1,2,\ldots, n$, i.e., $\nabla   p = 0$ and $p = 0
 
 ----
 
-To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/01/09/geometric-decomposition-of-hdiv-finite-elements/)
+To leave comments, please register a [GitHub](https://github.com/) account and then you can sign in GitHub to write comments using Markdown and LaTeX.
+
+<!-- (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/01/09/geometric-decomposition-of-hdiv-finite-elements/) -->
 

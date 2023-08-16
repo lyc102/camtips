@@ -1,3 +1,3 @@
-# camtips.github.io
+# CAMTips blog source
 
-This is for the set up of a GitHub page to write posts.
+https://lyc102.github.io/camtips

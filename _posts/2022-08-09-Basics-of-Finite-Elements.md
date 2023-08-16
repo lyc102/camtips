@@ -95,4 +95,6 @@ Interested readers can think about it, there is a very beautiful and complete an
 
 ---
 
-To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/08/10/basics-of-finite-elements/)
+
+To leave comments, please register a [GitHub](https://github.com/) account and then you can sign in GitHub to write comments using Markdown and LaTeX.
+<!-- To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/08/10/basics-of-finite-elements/) -->

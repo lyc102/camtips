@@ -48,5 +48,7 @@ Our goal is the sea of stars. Constructing finite element spaces for tensors, en
 
 ----
 
-To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/08/09/finite-element-complex/)
+
+To leave comments, please register a [GitHub](https://github.com/) account and then you can sign in GitHub to write comments using Markdown and LaTeX.
+<!-- To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/08/09/finite-element-complex/) -->
 

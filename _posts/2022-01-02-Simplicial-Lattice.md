@@ -155,7 +155,9 @@ We can construct Lagrang finite elements based on a decomposition of the simplic
 
 ----
 
-To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/01/02/simpliciallattice/)
+
+To leave comments, please register a [GitHub](https://github.com/) account and then you can sign in GitHub to write comments using Markdown and LaTeX.
+<!-- To leave comments (in math), please visit my UCI [blog](https://sites.uci.edu/camtips/2022/01/02/simpliciallattice/) -->
 
 
 
