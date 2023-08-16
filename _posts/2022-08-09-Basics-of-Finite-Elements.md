@@ -1,5 +1,5 @@
 ---
-title: "Basics on Finite Elements"
+title: "Chapter 1: Basics on Finite Elements"
 date: 2022-08-09
 categories:
   - Blog
