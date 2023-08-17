@@ -1,6 +1,6 @@
 ---
 title: "Chapter 1: Basics on Finite Elements"
-date: 2022-08-09
+date: 2023-08-15
 categories:
   - Blog
   - Research
@@ -8,10 +8,6 @@ tags:
   - FEM
   - Complex
 ---
-
-
-
-
 
 **ABSTRACT**. 
 
@@ -25,7 +21,7 @@ This lecture notes covers the construction of finite element spaces, focusing on
 4. More Examples on Finite Elements
 5. Lagrange Elements
 
-References
+<img src="https://lyc102.github.io/camtips/assets/images/pdf_icon.gif" /> [Chapter 1: Basics on Finite Elements](https://www.math.uci.edu/~chenlong/femcomplex/Ch1_FE.pdf)
 
 <img src="https://lyc102.github.io/camtips/assets/images/part1FEM2.png" alt="part1FEM2" style="zoom:80%;" />
 
@@ -46,3 +42,7 @@ References
 **Exercise 5.1.** Prove the unisolvence of DoFs and that the Lagrange element function space is globally continuous.
 
 **Exercise 5.2**. Prove the unisolvence of the three-dimensional Lagrange element and prove that the function space defined is globally continuous.
+
+
+
+<img src="https://lyc102.github.io/camtips/assets/images/pdf_icon.gif" /> [Chapter 1: Basics on Finite Elements](https://www.math.uci.edu/~chenlong/femcomplex/Ch1_FE.pdf)
