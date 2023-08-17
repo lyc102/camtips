@@ -9,6 +9,8 @@ tags:
   - Complex
 ---
 
+<img src="https://lyc102.github.io/camtips/assets/images/pdf_icon.gif" /> [Chapter 1: Basics on Finite Elements](https://www.math.uci.edu/~chenlong/femcomplex/Ch1_FE.pdf)
+
 **ABSTRACT**. 
 
 This lecture notes covers the construction of finite element spaces, focusing on simplicial triangulations. Examples of finite elements, such as the linear Lagrange element, Crouzeix-Raviart element, and higher-order Lagrange elements, are presented. The unisolvence property and continuity of these elements are discussed. 
@@ -21,7 +23,7 @@ This lecture notes covers the construction of finite element spaces, focusing on
 4. More Examples on Finite Elements
 5. Lagrange Elements
 
-<img src="https://lyc102.github.io/camtips/assets/images/pdf_icon.gif" /> [Chapter 1: Basics on Finite Elements](https://www.math.uci.edu/~chenlong/femcomplex/Ch1_FE.pdf)
+
 
 <img src="https://lyc102.github.io/camtips/assets/images/part1FEM2.png" alt="part1FEM2" style="zoom:80%;" />
 
