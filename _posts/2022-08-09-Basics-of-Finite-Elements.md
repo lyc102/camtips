@@ -31,10 +31,6 @@ tags:
 
 <img src="https://lyc102.github.io/camtips/assets/images/part1FEM 6.png" alt="part1FEM 6" style="zoom:80%;" />
 
-
-
-<img src="https://lyc102.github.io/camtips/assets/images/part1FEM 8.png" alt="part1FEM 8" style="zoom:80%;" />
-
 <img src="https://lyc102.github.io/camtips/assets/images/part1FEM 9.png" alt="part1FEM 9" style="zoom:80%;" />
 
 <img src="https://lyc102.github.io/camtips/assets/images/part1FEM 10.png" alt="part1FEM 10" style="zoom:80%;" />
