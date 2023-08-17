@@ -9,6 +9,8 @@ tags:
   - Complex
 ---
 
+
+
 **ABSTRACT**. This lecture notes covers the construction of finite element spaces, focusing on simplicial triangulations. Examples of finite elements, such as the linear Lagrange element, Crouzeix-Raviart element, and higher-order Lagrange elements, are presented. The unisolvence property and continuity of these elements are discussed. 
 
 **CONTENTS**
