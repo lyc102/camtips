@@ -23,23 +23,21 @@ tags:
 
 <img src="https://lyc102.github.io/camtips/assets/images/pdf_icon.gif" />  [Chapter 2: Geometric Decomposition of Lagrange Elements](https://www.math.uci.edu/~chenlong/femcomplex/Ch2_LagrangeElement.pdf)
 
-![Lagrangedec](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/Lagrangedec.png)
+<img src="https://lyc102.github.io/camtips/assets/images/Lagrangedec.png" alt="Lagrangedec" style="zoom:67%;" />
 
 
 
+<img src="https://lyc102.github.io/camtips/assets/images/Lagrangedec 2.png" alt="Lagrangedec 2" style="zoom:67%;" />
 
+<img src="https://lyc102.github.io/camtips/assets/images/Lagrangedec 3.png" alt="Lagrangedec 3" style="zoom:67%;" />
 
-![Lagrangedec 2](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/Lagrangedec 2.png)
+<img src="https://lyc102.github.io/camtips/assets/images/Lagrangedec 4.png" alt="Lagrangedec 4" style="zoom:67%;" />
 
-![Lagrangedec 3](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/Lagrangedec 3.png)
+<img src="https://lyc102.github.io/camtips/assets/images/Lagrangedec 7.png" alt="Lagrangedec 7" style="zoom:67%;" />
 
-![Lagrangedec 4](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/Lagrangedec 4.png)
+<img src="https://lyc102.github.io/camtips/assets/images/Lagrangedec 5.png" alt="Lagrangedec 5" style="zoom:67%;" />
 
-![Lagrangedec 7](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/Lagrangedec 7.png)
-
-![Lagrangedec 5](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/Lagrangedec 5.png)
-
-![Lagrangedec 6](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/Lagrangedec 6.png)
+<img src="https://lyc102.github.io/camtips/assets/images/Lagrangedec 6.png" alt="Lagrangedec 6" style="zoom:67%;" />
 
 
 
