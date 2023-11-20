@@ -14,18 +14,18 @@ tags:
 **CONTENTS**
 
 1. Distance and Derivative in Simplicial Lattice
-   1.1. Simplicial lattices
-   1.2. Distance
-   1.3. Derivative and distance
+   - Simplicial lattices
+   - Distance
+   - Derivative and distance
 2. Smooth Finite Elements in Two Dimensions
-2.1. Examples in two dimensions
-2.2. Derivatives at vertices
-2.3. Hermite-type finite elements
-2.4. Normal derivatives on edges
+- Examples in two dimensions
+- Derivatives at vertices
+- Hermite-type finite elements
+- Normal derivatives on edges
 3. Smooth Finite Elements in Arbitrary Dimensions
-3.1. Decompositions of the simplicial lattice
-3.2. Degrees of freedom
-3.3. Smooth finite elements in arbitrary dimension
+- Decompositions of the simplicial lattice
+- Degrees of freedom
+- Smooth finite elements in arbitrary dimension
 
 <img src="https://lyc102.github.io/camtips/assets/images/pdf_icon.gif" />  [Chapter 3: Geometric Decomposition of Smooth Finite Elements](https://www.math.uci.edu/~chenlong/femcomplex/Ch3_SmoothFE.pdf)
 
