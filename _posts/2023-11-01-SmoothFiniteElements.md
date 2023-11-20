@@ -29,30 +29,32 @@ tags:
 
 <img src="https://lyc102.github.io/camtips/assets/images/pdf_icon.gif" />  [Chapter 3: Geometric Decomposition of Smooth Finite Elements](https://www.math.uci.edu/~chenlong/femcomplex/Ch3_SmoothFE.pdf)
 
+
+
+<img src="https://lyc102.github.io/camtips/assets/images/smoothFEM.png" alt="smoothFEM" style="zoom:80%;" />
+
+<img src="https://lyc102.github.io/camtips/assets/images/smoothFEM 2.png" alt="smoothFEM 2" style="zoom:80%;" />
+
+<img src="https://lyc102.github.io/camtips/assets/images/smoothFEM 3.png" alt="smoothFEM 3" style="zoom:67%;" />
+
 <img src="https://lyc102.github.io/camtips/assets/images/Lagrangedec.png" alt="Lagrangedec" style="zoom:67%;" />
 
-<img src="/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/smoothFEM.png" alt="smoothFEM" style="zoom:80%;" />
+<img src="https://lyc102.github.io/camtips/assets/images/smoothFEM 4.png" alt="smoothFEM 4" style="zoom:80%;" />
 
-![smoothFEM 2](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/smoothFEM 2.png)
+<img src="https://lyc102.github.io/camtips/assets/images/smoothFEM 5.png" alt="smoothFEM 5" style="zoom:67%;" />
 
-![smoothFEM 3](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/smoothFEM 3.png)
+<img src="https://lyc102.github.io/camtips/assets/images/smoothFEM 6.png" alt="smoothFEM 6" style="zoom:67%;" />
 
-![smoothFEM 4](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/smoothFEM 4.png)
+<img src="https://lyc102.github.io/camtips/assets/images/smoothFEM 7.png" alt="smoothFEM 7" style="zoom:67%;" />
 
-![smoothFEM 5](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/smoothFEM 5.png)
+<img src="https://lyc102.github.io/camtips/assets/images/smoothFEM 8.png" alt="smoothFEM 8" style="zoom:67%;" />
 
-![smoothFEM 6](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/smoothFEM 6.png)
+<img src="https://lyc102.github.io/camtips/assets/images/smoothFEM 9.png" alt="smoothFEM 9" style="zoom:67%;" />
 
-![smoothFEM 7](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/smoothFEM 7.png)
+<img src="https://lyc102.github.io/camtips/assets/images/smoothFEM 10.png" alt="smoothFEM 10" style="zoom:67%;" />
 
-![smoothFEM 8](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/smoothFEM 8.png)
+<img src="https://lyc102.github.io/camtips/assets/images/smoothFEM 11.png" alt="smoothFEM 11" style="zoom:67%;" />
 
-![smoothFEM 9](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/smoothFEM 9.png)
-
-![smoothFEM 10](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/smoothFEM 10.png)
-
-![smoothFEM 11](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/smoothFEM 11.png)
-
-![smoothFEM 12](/Users/longchen1/Library/CloudStorage/Dropbox/Math/MathNotes/camtips/assets/images/smoothFEM 12.png)
+<img src="https://lyc102.github.io/camtips/assets/images/smoothFEM 12.png" alt="smoothFEM 12" style="zoom:67%;" />
 
 <img src="https://lyc102.github.io/camtips/assets/images/pdf_icon.gif" />  [Chapter 3: Geometric Decomposition of Smooth Finite Elements](https://www.math.uci.edu/~chenlong/femcomplex/Ch3_SmoothFE.pdf)
